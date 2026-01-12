@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact & Book a Demo | Ontology AI</title>
+  <meta name="description" content="Book a demo or request a discovery workshop with Ontology AI." />
+  <meta property="og:title" content="Contact & Book a Demo | Ontology AI" />
+  <meta property="og:description" content="Book a demo or request a discovery workshop with Ontology AI." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="icon" href="assets/ontology-diagram.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <a href="index.html"><strong>Ontology AI</strong></a>
+      <nav class="nav-links">
+        <a href="platform.html">Platform</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="impact.html">Customers</a>
+        <a href="resources.html">Resources</a>
+        <a href="company.html">Company</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="cta" href="contact.html">Book a demo</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <span class="tag">Contact</span>
+        <h1>Book a demo or request a workshop.</h1>
+        <p>Tell us about your workflows, data landscape, and governance requirements. We will route you to the right team within 24 hours.</p>
+        <div class="inline-list" style="margin-top: 16px;">
+          <span class="badge">Americas</span>
+          <span class="badge">EMEA</span>
+          <span class="badge">APAC</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/platform-diagram.svg" alt="Contact diagram" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Request type</h2>
+      <div class="persona-switch">
+        <button class="active" data-persona="demo">Book demo</button>
+        <button data-persona="workshop">Request workshop</button>
+      </div>
+
+      <div class="persona-panel active" data-persona-panel="demo">
+        <div class="card" style="margin-top: 16px;">
+          <h3>Book a demo</h3>
+          <form class="form">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Full name" required />
+            </div>
+            <div>
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" placeholder="name@company.com" required />
+            </div>
+            <div>
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" placeholder="Company" required />
+            </div>
+            <div>
+              <label for="role">Role</label>
+              <input id="role" name="role" type="text" placeholder="CIO, Head of Ops, Architect" />
+            </div>
+            <div>
+              <label for="region">Region</label>
+              <select id="region" name="region">
+                <option>Americas</option>
+                <option>EMEA</option>
+                <option>APAC</option>
+              </select>
+            </div>
+            <div>
+              <label for="problem">Problem area</label>
+              <textarea id="problem" name="problem" rows="4" placeholder="Describe the workflow or challenge."></textarea>
+            </div>
+            <button class="cta" type="submit">Book demo</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="persona-panel" data-persona-panel="workshop">
+        <div class="card" style="margin-top: 16px;">
+          <h3>Request a discovery workshop</h3>
+          <form class="form">
+            <div>
+              <label for="name2">Name</label>
+              <input id="name2" name="name" type="text" placeholder="Full name" required />
+            </div>
+            <div>
+              <label for="email2">Work email</label>
+              <input id="email2" name="email" type="email" placeholder="name@company.com" required />
+            </div>
+            <div>
+              <label for="company2">Company</label>
+              <input id="company2" name="company" type="text" placeholder="Company" required />
+            </div>
+            <div>
+              <label for="size">Company size</label>
+              <select id="size" name="size">
+                <option>1-500</option>
+                <option>500-5k</option>
+                <option>5k-20k</option>
+                <option>20k+</option>
+              </select>
+            </div>
+            <div>
+              <label for="workflow">Workflow focus</label>
+              <textarea id="workflow" name="workflow" rows="4" placeholder="What workflows should the workshop cover?"></textarea>
+            </div>
+            <button class="cta" type="submit">Request workshop</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Routing rules</h2>
+      <div class="grid two">
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p>Companies 5,000+ employees receive an architecture review track.</p>
+        </div>
+        <div class="card">
+          <h3>Mid-market</h3>
+          <p>Rapid demo + pilot planning within 10 business days.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <strong>Ontology AI</strong>
+        <p>Let us know how we can help.</p>
+      </div>
+      <div>
+        <p><strong>Company</strong></p>
+        <a href="company.html">Company</a><br />
+        <a href="careers.html">Careers</a><br />
+        <a href="partners.html">Partner program</a><br />
+        <a href="press-kit.html">Press kit</a>
+      </div>
+      <div>
+        <p><strong>Resources</strong></p>
+        <a href="resources.html">Resources</a><br />
+        <a href="impact.html">Impact</a>
+      </div>
+      <div>
+        <p><strong>Trust</strong></p>
+        <a href="trust.html">Security / Trust</a><br />
+        <a href="privacy.html">Privacy</a><br />
+        <a href="terms.html">Terms</a><br />
+        <a href="responsible-ai.html">Responsible AI</a>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/site.js" defer></script>
+</body>
+</html>

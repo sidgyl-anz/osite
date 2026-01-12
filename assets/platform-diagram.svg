@@ -1,0 +1,17 @@
+<svg width="600" height="320" viewBox="0 0 600 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="20" width="560" height="280" rx="18" fill="#111420" stroke="#2A3146" stroke-width="2"/>
+  <rect x="60" y="70" width="160" height="60" rx="12" fill="#151A2B" stroke="#6BE2FF" stroke-width="2"/>
+  <rect x="60" y="160" width="160" height="60" rx="12" fill="#151A2B" stroke="#43C4FF" stroke-width="2"/>
+  <rect x="260" y="70" width="160" height="60" rx="12" fill="#151A2B" stroke="#4FE3A3" stroke-width="2"/>
+  <rect x="260" y="160" width="160" height="60" rx="12" fill="#151A2B" stroke="#FFB347" stroke-width="2"/>
+  <rect x="460" y="115" width="90" height="90" rx="14" fill="#151A2B" stroke="#6BE2FF" stroke-width="2"/>
+  <text x="85" y="105" fill="#F5F7FF" font-size="12" font-family="Inter">Ontology Studio</text>
+  <text x="90" y="195" fill="#F5F7FF" font-size="12" font-family="Inter">Agent Builder</text>
+  <text x="275" y="105" fill="#F5F7FF" font-size="12" font-family="Inter">Workflow Engine</text>
+  <text x="270" y="195" fill="#F5F7FF" font-size="12" font-family="Inter">Eval & Monitor</text>
+  <text x="465" y="155" fill="#F5F7FF" font-size="11" font-family="Inter">Model Gateway</text>
+  <line x1="220" y1="100" x2="260" y2="100" stroke="#6BE2FF" stroke-width="2"/>
+  <line x1="220" y1="190" x2="260" y2="190" stroke="#43C4FF" stroke-width="2"/>
+  <line x1="420" y1="100" x2="460" y2="140" stroke="#4FE3A3" stroke-width="2"/>
+  <line x1="420" y1="190" x2="460" y2="180" stroke="#FFB347" stroke-width="2"/>
+</svg>
